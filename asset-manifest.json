@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/3DWeb-prototype/static/js/main.b81d222f.js",
+    "main.js": "/3DWeb-prototype/static/js/main.ac85efed.js",
     "index.html": "/3DWeb-prototype/index.html",
-    "main.b81d222f.js.map": "/3DWeb-prototype/static/js/main.b81d222f.js.map"
+    "main.ac85efed.js.map": "/3DWeb-prototype/static/js/main.ac85efed.js.map"
   },
   "entrypoints": [
-    "static/js/main.b81d222f.js"
+    "static/js/main.ac85efed.js"
   ]
 }
