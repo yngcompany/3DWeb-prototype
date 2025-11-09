@@ -46,3 +46,13 @@ three-scroll-proto/
 │   └─ index.js
 ├─ package.json
 └─ README.md
+```
+
+---
+
+## 💻 설치 및 실행
+# 1. 프로젝트 클론
+```bash
+    git clone https://github.com/yngcompany/3DWeb-prototype.git
+    cd three-scroll-proto
+```
