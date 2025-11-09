@@ -2,8 +2,8 @@ import React from "react";
 import { useGLTF } from "@react-three/drei";
 
 export default function Scene() {
-  // 더미 모델 (간단한 GLB 파일)
-  const { scene } = useGLTF(process.env.PUBLIC_URL + "/models/dummy.glb");
+  const modelPath = process.env.PUBLIC_URL + "/3DWeb-prototype/models/dummy.glb";
+  const { scene } = useGLTF(modelPath);
 
   return (
     <primitive
