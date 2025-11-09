@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/three-scroll-proto/static/css/main.a2d92288.css",
+    "main.js": "/three-scroll-proto/static/js/main.f36c3ee9.js",
+    "static/js/453.eec9755a.chunk.js": "/three-scroll-proto/static/js/453.eec9755a.chunk.js",
+    "index.html": "/three-scroll-proto/index.html",
+    "main.a2d92288.css.map": "/three-scroll-proto/static/css/main.a2d92288.css.map",
+    "main.f36c3ee9.js.map": "/three-scroll-proto/static/js/main.f36c3ee9.js.map",
+    "453.eec9755a.chunk.js.map": "/three-scroll-proto/static/js/453.eec9755a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2d92288.css",
+    "static/js/main.f36c3ee9.js"
+  ]
+}
