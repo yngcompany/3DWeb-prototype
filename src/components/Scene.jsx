@@ -2,7 +2,7 @@ import React from "react";
 import { useGLTF } from "@react-three/drei";
 
 export default function Scene() {
-  const modelPath = process.env.PUBLIC_URL + "/3DWeb-prototype/models/dummy.glb";
+  const modelPath = process.env.PUBLIC_URL + "/models/dummy.glb";
   const { scene } = useGLTF(modelPath);
 
   return (
