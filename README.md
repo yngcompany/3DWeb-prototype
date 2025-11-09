@@ -61,3 +61,33 @@ three-scroll-proto/
 ```bash
     npm install
 ```
+
+# 3. 서버 실행
+```bash
+    npm start
+```
+
+---
+
+## 🎬 테스트 방법
+```text
+- 스크롤을 아래로 내리면 3D 큐브 확대 및 텍스트 fade-in
+- ScrollControls pages 설정에 따라 페이지 수 조정 가능
+- styled-components를 통해 Section, FadeSection, FadeTitle 등 재사용 컴포넌트 스타일 변경 가능
+- 반응형 미디어쿼리 적용으로 모바일 / 태블릿 대응
+```
+
+---
+## 🔧 향후 개선사항
+```text
+- 다양한 3D 모델(GLTF/GLB) 적용
+- GSAP 기반 스크롤 트리거 애니메이션 강화
+- 다양한 UI 요소 추가
+- 화면 전환 시 더 자연스러운 카메라 경로 적용
+```
+
+---
+
+## 참고 링크
+[React 공식 사이트](https://reactjs.org/ "React 홈페이지로 이동")
+[Three.js 공식 문서](https://threejs.org/docs/)
