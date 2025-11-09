@@ -2,7 +2,7 @@
   "name": "three-scroll-proto",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yngcompany.github.io/3DWeb-prototype",
+  "homepage": "https://yngcompany.github.io/3DWeb-prototype/",
   "dependencies": {
     "@react-three/drei": "^10.7.6",
     "@react-three/fiber": "^9.4.0",
