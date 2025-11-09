@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# 3D Scroll Web Prototype
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📌 프로젝트 개요
 
-## Available Scripts
+이 프로젝트는 React + Three.js 기반의 **스크롤 연동 3D 웹 인터랙티브 프로토타입**입니다.  
+스크롤을 내려가면 3D 모델, 카메라 이동, 텍스트 fade-in 등 다양한 연출이 나타납니다.  
+개인 학습 및 팀 스터디용으로 제작한 **실습용 프로젝트**입니다.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 주요 기능
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 스크롤 기반 3D 장면 전환  
+- React + React Three Fiber(R3F) 활용 3D 모델 렌더링  
+- ScrollControls를 통한 HTML + 3D 씬 동기화  
+- styled-components 기반 CSS-in-JS 스타일링  
+- Fade-in / 확대 / 카메라 이동 애니메이션  
+- 반응형 레이아웃 지원 (미디어쿼리 적용)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠 기술 스택
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| 프론트엔드 | React.js (Functional Components & Hooks) |
+| 3D 렌더링 | Three.js + React Three Fiber (R3F) |
+| 3D 유틸리티 | @react-three/drei (ScrollControls, useScroll 등) |
+| 애니메이션 | GSAP (GreenSock Animation Platform) |
+| 스타일링 | styled-components (CSS-in-JS) |
+| 3D 모델 | GLTF / 더미 큐브(Blender로 생성) |
+| 기타 | React Hooks (useState, useRef, useEffect), useFrame |
 
-### `npm run build`
+## 📌 폴더 구조
+three-scroll-proto/
+├─ public/
+│ └─ models/ # GLTF / 더미 3D 모델 위치
+├─ src/
+│ ├─ components/ # Scene, CameraScroll 등
+│ ├─ styles/ # Layout.js 등 styled-components
+│ ├─ App.js # 메인 캔버스와 ScrollControls
+│ └─ index.js
+├─ package.json
+└─ README.md
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 💻 설치 및 실행
+### 1. 프로젝트 클론
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+git clone https://github.com/yngcompany/3DWeb-prototype.git
+cd three-scroll-proto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 2. 패키지 설치
+npm install
 
-### `npm run eject`
+### 3. 서버 실행
+npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### http://localhost:3000
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🎬 테스트 방법
+- 스크롤을 아래로 내리면 3D 큐브 확대 및 텍스트 fade-in
+- ScrollControls pages 설정에 따라 페이지 수 조정 가능
+- styled-components를 통해 Section, FadeSection, FadeTitle 등 재사용 컴포넌트 스타일 변경 가능
+- 반응형 미디어쿼리 적용으로 모바일 / 태블릿 대응
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 향후 개선사항
+- 다양한 3D 모델(GLTF/GLB) 적용
+- GSAP 기반 스크롤 트리거 애니메이션 강화
+- 다양한 UI 요소 추가
+- 화면 전환 시 더 자연스러운 카메라 경로 적용
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 참고자료
+- [React 공식 사이트](https://reactjs.org/)
+- [Three.js 공식 문서](https://threejs.org/docs/)
