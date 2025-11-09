@@ -1,10 +1,13 @@
 {
   "files": {
+    "main.css": "/3DWeb-prototype/static/css/main.05df9a5a.css",
     "main.js": "/3DWeb-prototype/static/js/main.11491ace.js",
     "index.html": "/3DWeb-prototype/index.html",
+    "main.05df9a5a.css.map": "/3DWeb-prototype/static/css/main.05df9a5a.css.map",
     "main.11491ace.js.map": "/3DWeb-prototype/static/js/main.11491ace.js.map"
   },
   "entrypoints": [
+    "static/css/main.05df9a5a.css",
     "static/js/main.11491ace.js"
   ]
 }
