@@ -47,12 +47,17 @@ three-scroll-proto/
 ```bash
 git clone https://github.com/yngcompany/3DWeb-prototype.git
 cd three-scroll-proto
+```
 
 ### 2. 패키지 설치
+```bash
 npm install
+```
 
 ### 3. 서버 실행
+```bash
 npm start
+```
 
 ### http://localhost:3000
 
